@@ -1,8 +1,14 @@
+/* header, body, footer, main */
+
 body {
-  background-color: antiquewhite;
-  color: plum;
+  display: flex;
+  background-color: rgb(28, 97, 98);
 }
 
-header h1 {
-  text-align: right;
+header{}
+
+main {
+  display: flex
 }
+
+footer {}
