@@ -1,3 +1,14 @@
+/* header, body, footer, main */
+
 body {
-  background-color: antiquewhite;
+  display: flex;
+  background-color: rgb(28, 97, 98);
 }
+
+header{}
+
+main {
+  display: flex
+}
+
+footer {}
