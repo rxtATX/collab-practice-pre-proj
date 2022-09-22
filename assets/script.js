@@ -1,7 +1,11 @@
-console.log("This is loaded");
+console.log("Hello world this is morgan from the developer team.");
+
+let $body = document.querySelector(`body`);
+let $button = document.createElement('button');
 
 function sayHello() {
-  console.log("Hello")
+  return "Hello";
 }
 
-sayHello();
+$button.textContent(sayHello());
+$body.appendChild($button);
