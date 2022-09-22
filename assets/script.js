@@ -7,5 +7,5 @@ function sayHello() {
   return "Hello";
 }
 
-$button.textContent(sayHello());
+$button.textContent = sayHello();
 $body.appendChild($button);
